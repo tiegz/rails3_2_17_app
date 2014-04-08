@@ -4,7 +4,7 @@ source 'https://rubygems.org'
 gem 'rails', '4.0.4'
 
 # Use sqlite3 as the database for Active Record
-gem 'sqlite3'
+#gem 'sqlite3'
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.2'
@@ -32,6 +32,8 @@ group :doc do
   gem 'sdoc', require: false
 end
 
+gem 'mysql2'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
@@ -43,3 +45,8 @@ end
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
+
+gem 'authlogic'
+gem 'bcrypt-ruby'
+gem 'scrypt'
+gem 'semantic_attributes'
